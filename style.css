@@ -1,0 +1,550 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@600&display=swap');
+body {
+    background-image: url(./assets/mainbg.png);
+}
+.fav {
+    gap: 25px;
+    margin-top: -30px;
+    justify-content: center;
+}
+.row.navbar {
+    width: 100%;
+}
+div.logo{
+    display: flex;
+    justify-content: end;
+}
+div.nav {   
+    margin-top: -47px;
+    justify-content: center;
+}
+ul.navbar-nav {
+    gap: 35px;
+    font-weight: 700;  
+}
+a.nav-link {
+    color: white;
+}
+a.nav-link:hover {
+    color: rgb(137, 122, 37);
+}
+p.fa {
+    color: white;
+}
+
+div.bg0 {
+    width: 100%;
+    position: absolute;
+    z-index: -2;      
+}
+.book-img {
+    width: 55%;
+    position: absolute;
+    top: 59px;
+    left: 0px;
+}
+.row.main1 {
+    width: 100%;
+    height: 770px;
+}
+.scroll {
+    position: absolute;
+    top: 237px;
+    left: 407px;
+    width: 70px;
+}
+p.t1 {
+    color: white;
+    font-weight: 400;
+    width: 75%;
+    padding: 12px;
+    font-size: 16px;
+}
+h6.t1 {
+    color: white;
+    padding-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+.buttons.d-flex {
+    gap: 20px;
+}
+.holder {
+/* width: 70%; */
+    padding-left: 120px;
+}
+button.btn1 {
+    /* border: 2px solid red; */
+    border: none;
+    border-radius: 40px;
+    height: 40px;
+    gap: 10px;
+    background-color: rgb(192,172,71);
+    color: white;
+
+}
+button.btn2 {
+    /* border: 2px solid red; */
+    border: none;
+    border-radius: 40px;
+    height: 40px;
+    gap: 10px;
+    color: rgb(192,172,71);
+}
+h4.btn1 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 7px;
+    padding-left: 6px;
+}
+h4.btn2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 7px;
+    padding-left: 6px;
+}
+h2.t1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 47px;
+    color: white;
+}
+.img2-container {
+    margin-left: 21px;
+    margin-top: -36px;
+}
+button.play {
+    height: 70px;
+    width: 72px;
+    border-radius: 60%;
+    border: none;
+    position: absolute;
+    top: 82px;
+    left: 77px;
+}
+.so-img {
+    width: 60px;
+    margin-top: 30px;
+}
+.row.main2 {
+    width: 100%;
+}
+/* main3 */
+.holder2 {
+    width: 50%;
+    margin-left: 190px;
+}
+button.man2 {
+    /* border: 2px solid red; */
+    border: none;
+    border-radius: 40px;
+    height: 40px;
+    gap: 10px;
+    background-color: #046bab;
+    color: white;
+    margin-bottom:20px;
+}
+h4.man2{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 9px;
+    padding-left: 6px;
+}
+h6.man2 {
+    font-size: 14px;
+    font-family: 'Poppins';
+    color: #046bab;
+}
+h2.man2 {
+    font-family: 'Dancing Script';
+    font-size: 58px;
+}
+p.man2 {
+    font-weight: 500;
+    font-size: 13px;
+}
+div.num1{
+    width: 95%;
+    margin-top: 60px;
+    /* background-color: #046bab; */
+    text-align: left;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px 3px #00000029;
+    
+}
+div.num1:hover{
+      background-color: #046bab;
+      color: white;
+     
+}
+div.num1:hover .view{
+    color: #ffffff !important;
+}
+div.num2:hover .view{
+    color: #ffffff !important;
+}
+div.num3:hover .view{
+    color: #ffffff !important;
+}
+div.num4:hover .view{
+    color: #ffffff !important;
+}
+div.num2:hover{
+    background-color: #046bab;
+    color: white;
+}
+div.num3:hover{
+    background-color: #046bab;
+    color: white;
+}
+div.num4:hover{
+    background-color: #046bab;
+    color: white;
+}
+div.num2{
+    width: 95%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px 3px #00000029;
+    margin-top: 35px;
+    background-color: #ffffffa1;
+}
+div.num3{
+    width: 95%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px 3px #00000029;
+    background-color: #ffffffa1;
+}
+div.num4{
+    width: 95%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px 3px #00000029;
+    margin-top: 35px;
+    background-color: #ffffffa1;
+
+}
+p.viewb {
+    font-family: 'Poppins';
+    color: white;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    font-size: 15px;
+}
+p.view {
+    font-family: 'Poppins';
+    color: #046bab;
+    padding-left: 16px;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+span.main2 {
+    letter-spacing: -5px;
+    font-size: 20px;
+}
+h6.main2 {
+    font-size: 21px;
+    padding-left: 15px;
+    font-family: 'Dancing Script';
+    /* color: white; */
+    padding-top: 8px;
+}
+h6.main2w {
+    font-size: 21px;
+    padding-left: 15px;
+    font-family: 'Dancing Script';
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+p.main2w{
+    color: white;
+    padding-left: 15px;
+    font-size: 11px;
+    font-weight: 500;    
+}
+p.main2{
+    /* color: white; */
+    padding-left: 15px;
+    font-size: 11px;
+    font-weight: 500;
+}
+.img-ma2 {
+    position: absolute;
+    right: 6px;
+    top: 3px;
+}
+.img-ma3 {
+    position: absolute;
+    top: -171px;
+    width: 467px;
+    z-index: -1;
+}
+.img-auth {
+    width: 58%;
+    margin-left: 100px;
+    margin-top: 39px;
+}
+.row.main3 {
+    margin-top: 60px;
+    width: 100%;
+}
+.holder3 {
+    width: 70%;
+}
+h6.mai3 {
+    font-size: 14px;
+    color: #046bab;
+    font-weight: 500;
+}
+h4.mai3 {
+    font-family: 'Dancing Script';
+    font-size: 36px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+p.mai3 {
+    font-size: 16px;
+    font-weight: 400;
+}
+.img-cont {
+    position: absolute;
+    z-index: -1;
+}
+.holder4 {
+    width: 60%;
+    margin-top: 108px;
+    margin-left: 120px;
+}
+button.btn-mi4{
+    border: none;
+    border-radius: 40px;
+    height: 40px;
+    gap: 10px;
+    background-color:#c0ac47;
+    color: white;
+    font-weight: 500;
+    margin-bottom:20px; 
+}
+div.btn-mai4{
+    gap :20px;
+}
+h6.mai4 {
+    color: #c0ac47;
+    font-size: 12px;
+    font-family: 'Poppins';
+}
+h2.mai4 {
+    font-family: 'Dancing Script';
+    color: white;
+    font-size: 48px;
+}
+h3.mai4 {
+    color: #c0ac47;
+    font-size: 45px;
+    font-weight: 700;
+}
+p.mai4 {
+    color: white;
+    font-weight: 400;
+    padding-top: 20px;
+}
+h5.mai4 {
+    color: white;
+    font-weight: 400;
+    padding-bottom: 9px;
+    padding-top: 9px;
+}
+.row.main4.position-relative {
+    width: 100%;
+}
+div.main5{
+    margin-top: 200px;
+    width: 100%;
+}
+.main5 h6 {
+    font-family: 'Poppins';
+    color: #046bab;
+}
+h3.main5 {
+    font-family: 'Dancing Script';
+    font-size: 45px;
+}
+p.main5 {
+    margin-top: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.content5 {
+    width: 42%;
+    position: absolute;
+    top: 57px;
+    left: 530px;
+}
+h3.cont5.text-start {
+    font-family: 'Dancing Script';
+    font-size: 40px;
+    color: #ffffff91;
+}
+p.cont5.text-start {
+    font-size: 17px;
+    width: 80%;
+    color: #ffffff91;
+    font-weight: 400;
+    margin-top: 23px;
+}
+.play-btn {
+    position: absolute;
+    top: 112px;
+    right: 350px;
+}
+div.main6{
+    /* width: 100%; */
+    margin: 50px;
+}
+div.img-hol6{
+    width: 70px;
+    margin-bottom: 10px;
+}
+.img-holder6 {
+    margin-right: 50px;
+    position: relative;
+    z-index: -2;
+    top: 102px;
+}
+div.holder6 {
+    width: 76%;
+    margin-top: 82px;
+}
+ h6.mai6 {
+    color: #046bab;
+    font-size: 14px;
+    font-family: 'Poppins';
+}
+h3.mai6 {
+    font-family: 'Dancing Script';
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+p.mai6 {
+    font-size: 17px;
+    font-weight: 400;
+}
+h4.mai6 {
+    font-size: 19px;
+}
+p.main6 {
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: -7px;
+}
+.img-holder {
+    width: 210px;
+    position: absolute;
+    top: -183px;
+    right: -50px;
+}
+.img-holdmain7 {
+    position: absolute;
+    top: -476px;
+    z-index: -1;
+}
+div.main7{
+    width: 100%;
+}
+p.main7 {
+    color: #c0ac47;
+    font-family: 'Poppins';
+}
+h2.main7 {
+    color: white;
+    font-family: 'Dancing Script';
+    font-size: 39px;
+}
+button.btn-main7 {
+    border: none;
+    border-radius: 40px;
+    height: 40px;
+    gap: 10px;
+    background-color: #c0ac47;
+    color: white;
+    font-weight: 500;
+    /* margin-bottom: 20px; */
+}
+input.email {
+    width: 469px;
+    height: 46px;
+    border-radius: 20px 0px 0px 20px;
+    background-color: transparent;
+   border: none;
+   color: white;
+    padding-left: 37px;
+}
+.holder7 {
+    margin: 109px;
+}
+.search {
+    border: 1px solid #8080805c;
+    width: 600px;
+    /* margin-bottom: -11px; */
+    border-radius: 23px;
+    padding-bottom: 3px;
+    margin-top: 139px;
+}
+div.main8{
+    width: 100%;
+    gap: 70px;
+}
+h6.main8 {
+    color: white;
+    font-family: 'Poppins';
+    padding-left: 5px;
+}
+p.main8 {
+    color: #ffffff57;
+    padding-left: 5px;
+    word-spacing: 4px;
+
+}
+p.follow {
+    color: #ffffff57;
+    font-size: 18px;
+    padding-left: 2px;
+}
+img.img-main8 {
+    margin-left: 6px;
+}
+hr:not([size]) {
+    height: 1px;
+    color: white;
+}
+span.main8 {
+    color: #c0ac47;
+   
+    letter-spacing: -6px;
+}
+span.co-8 {
+    color: #ffffff87;
+    margin-left: 6px;
+    font-size: 14px;
+}
+.co-8 {
+    margin-bottom: 20px;
+}input.form {
+    width: 300px;
+    border: 1px solid gray;
+    background-color: transparent;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    color: white;
+}
+input#f3 {
+    height: 100px;
+}
+button.btn-8 {
+    border: none;
+    border-radius: 40px;
+    height: 40px;
+    gap: 10px;
+    background-color: #c0ac47;
+    color: white;
+    font-weight: 500;
+}
